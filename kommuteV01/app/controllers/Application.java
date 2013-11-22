@@ -13,5 +13,8 @@ public class Application extends Controller {
     public static Result testing(){
     	return ok("This is a test");
     }
+    public static Result testing2(){
+    	return ok("This is testing no2");
+    }
 
 }
