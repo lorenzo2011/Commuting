@@ -2,30 +2,64 @@
 
 @main("Welcome to Play") {
 	<div class="main_page">
-		<h2>@message</h2>
-		<div class="row position_form">
-        <div class="col-md-4 ">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h5 class="text-left">Login</h5>
-                    <form class="form form-signup" role="form">
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                            <input type="text" class="form-control" placeholder="Username" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                            <input type="password" class="form-control" placeholder="Password" />
-                        </div>
-                    </div>
-                </div>
-                <a href="http://www.jquery2dotnet.com" class="btn btn-sm btn-primary btn-block" role="button">
-                    SUBMIT</a> </form>
-            </div>
-        </div>
-    </div>
+		<h2 id="header_msg"><img src="@routes.Assets.at("images/logo00.png")" /></h2>
+		<div class="position_left">
+			<div class="row position_form">
+	        <div class="col-md-4 ">
+	            <div class="panel panel-default">
+	                <div class="panel-body">
+	                    <h5 class="text-left">Login</h5>
+	                    <form class="form form-signup" role="form">
+	                    <div class="form-group">
+	                        <div class="input-group">
+	                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+	                            <input type="text" class="form-control" placeholder="Username" />
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <div class="input-group">
+	                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+	                            <input type="password" class="form-control" placeholder="Password" />
+	                        </div>
+	                    </div>
+	                    <h6 class="text-right"><a href="#">Lost Password</a></h6>
+	                </div>
+	                <a href="#" class="btn btn-sm btn-primary btn-block" role="button">SUBMIT</a>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="category_section" class="row position_form">
+	        <div class="col-md-4 ">
+	            <div class="panel panel-default">
+	                <div class="panel-body">
+	                    <h5 class="text-left">Want to register?</h5>
+	                    <form class="form form-signup" role="form">
+	                    <div class="form-group">
+	                        <div class="input-group">
+	                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+	                            <input type="text" class="form-control" placeholder="Username" />
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <div class="input-group">
+	                            <span class="input-group-addon"><span class="glyphicon glyphicon-folder-open"></span></span>
+	                            <input type="text" class="form-control" placeholder="Email Address" />
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <div class="input-group">
+	                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+	                            <input type="password" class="form-control" placeholder="Password" />
+	                        </div>
+	                    </div>
+	                </div>
+	                <a href="#" class="btn btn-sm btn-success btn-block" role="button">REGISTER</a> 
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+		</div>
+		<div class="search_sec">Hello</div>
 	</div>
 }
