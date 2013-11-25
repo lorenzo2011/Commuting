@@ -1,14 +1,19 @@
 .main_body_c {background-color: #FF55A9;}
 
-.main_page {height: 100%;}
+.main_page {margin-bottom: 100%;}
 .top_border {border-top:3px groove #a1a1a1;}
 
-.input-group-addon {background-color: rgb(50, 118, 177); border-color: rgb(40, 94, 142); color: rgb(255, 255, 255);}
-.form-control:focus {background-color: #f6f6f6; border-color: rgb(40, 94, 142); color: rgb(255, 255, 255);}
-.form-signup input[type="text"],.form-signup input[type="password"] { border: 1px solid rgb(50, 118, 177); }
+.position_left {width: 30%; float: left;}
+.position_right {float: right; width: 65%;}
+
+.search_form {width: 100% !important;}
+.search_box {width: 80% !important;}
+
+.input-group-addon {background-color: rgb(50, 118, 177); border-color: rgb(40, 94, 142); color: rgb(255, 255, 255); color: #000000;}
+.form-control:focus {background-color: #f6f6f6; border-color: rgb(40, 94, 142); color: rgb(255, 255, 255); color: #000000;}
+.form-signup input[type="text"],.form-signup input[type="password"] { border: 1px solid rgb(50, 118, 177);  color: #000000;}
 #spacing {margin-right: 10px;}
 
 #header_msg {margin-bottom: 5em;}
-#category_section {margin-bottom: 100%;}
 
 footer{background-color: #0094D0; color: #ffffff;}
