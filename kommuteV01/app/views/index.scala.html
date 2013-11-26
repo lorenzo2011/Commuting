@@ -12,22 +12,28 @@
                         <div class="panel-body">
                             <h5 class="text-left">Login</h5>
                             @form(routes.Application.postLogin(), 'class -> "form form-signup") {
-                            <form class="form form-signup" role="form">
 	                            <div class="form-group">
 	                                <div class="input-group">
 	                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-	                                    <input type="text" class="form-control" placeholder="Username" />
+	                                    <input type="text" class="form-control" placeholder="Username" 
+	                                    	name="@loginForm("username").name"
+	                                    	id="@loginForm("username").id"
+	                                    	value="@loginForm("username").value"
+	                                    />
 	                                </div>
 	                            </div>
 	                            <div class="form-group">
 	                                <div class="input-group">
 	                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-	                                    <input type="password" class="form-control" placeholder="Password" />
+	                                    <input type="password" class="form-control" placeholder="Password" 
+	                                    	name="@loginForm("password").name"
+	                                    	id="@loginForm("password").id"
+	                                    	value="@loginForm("password").value"
+	                                    />
 	                                </div>
 	                            </div>
 	                            <h6 class="text-right"><a href="#">Lost Password</a></h6>
-	                        <a href="#" class="btn btn-sm btn-primary btn-block" role="button">SUBMIT</a>
-                            </form>
+	                        	<button class="btn btn-sm btn-primary btn-block" role="button">SUBMIT</button>
                             }
                          </div>
                     </div>
