@@ -5,9 +5,11 @@ import play.Logger;
 
 public class Global extends GlobalSettings {
 	
+	private UserInfoDB userInfoDb = new UserInfoDB();
+	
 	@Override
 	public void onStart(Application app){
-		UserInfoDB.addUserInfo("Laurence", "mypassword");
+		userInfoDb.addUserInfo("Laurence", "mypassword");
 	}
 	@Override
 	public void onStop(Application app){
